@@ -38,6 +38,12 @@ Thumbs.db
 # Virual environments
 venv/
 venv
+.venv/
+.venv
+
 # Pycharm files
 .idea/
 .idea
+#pytest
+.pytest_cache/
+.pytest_cache

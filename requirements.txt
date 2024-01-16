@@ -1,5 +1,5 @@
-pytest==6.2.3
-pyyaml
+pytest
+pyaml
 netmiko
 pexpect
 paramiko
