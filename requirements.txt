@@ -1,8 +1,5 @@
 pytest==6.2.3
-<<<<<<< HEAD
-yaml
-=======
->>>>>>> 04aa46d6a5c44069ea54e99069952193d2f8dfc5
+pyyaml
 netmiko
 pexpect
 paramiko
