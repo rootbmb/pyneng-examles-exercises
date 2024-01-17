@@ -50,3 +50,5 @@ london_co = {
         "routing": True,
     },
 }
+out = london_co[input()]
+print(out[input(f'{out.keys()}')])
