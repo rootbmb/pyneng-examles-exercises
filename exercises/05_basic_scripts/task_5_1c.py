@@ -49,3 +49,6 @@ london_co = {
         "routing": True,
     },
 }
+
+out = london_co.get(input())
+print(out.get(input(f'{out.keys()}'),'Такого параметра нет'))
