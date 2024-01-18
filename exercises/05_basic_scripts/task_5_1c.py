@@ -51,4 +51,4 @@ london_co = {
 }
 
 out = london_co.get(input())
-print(out.get(input(f'{list(out.keys())'),'Такого параметра нет'))
+print(out.get(input(f'{list(out.keys())'), 'Такого параметра нет'))
