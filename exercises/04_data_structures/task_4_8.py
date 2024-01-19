@@ -25,8 +25,16 @@
 проверять результат.
 """
 
+
+
 ip = "192.168.3.1"
 
 ip = ip.split('.')
 
-print('{0:<9}{1:<9}{2:<9}{3:<9}\n{0:08b} {1:08b} {2:08b} {3:08b}'.format(int(ip[0]),int(ip[1]),int(ip[2]),int(ip[3])))
+
+template_ip ="""
+    {0:<9}  {1:<9}{2:<9} {3:<9}\n
+    {0:08b}  {1:08b}  {2:08b}  {3:08b}
+"""
+
+print(template_ip.format(int(ip[0]),int(ip[1]),int(ip[2]),int(ip[3])))

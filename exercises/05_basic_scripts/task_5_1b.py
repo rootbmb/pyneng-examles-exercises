@@ -50,5 +50,7 @@ london_co = {
         "routing": True,
     },
 }
-out = london_co[input()]
-print(out[input(f'{out.keys()}')])
+dic_key1= input('Введите имя устройства: ')
+dic_key2 = input(f'Введите имя параметра {london_co[dic_key1].keys()}: ')
+result = london_co[dic_key1][dic_key2]
+print(result)

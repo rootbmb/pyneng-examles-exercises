@@ -44,4 +44,7 @@ london_co = {
         "routing": True,
     },
 }
-print(london_co[input()][input()])
+key= input('Введите имя устройства: ')
+args = input('Введите имя параметра: ')
+result = london_co[key][args]
+print(result)
