@@ -53,7 +53,3 @@ dic_key1= input('Введите имя устройства: ')
 dic_key2 = input(f'Введите имя параметра {london_co[dic_key1].keys()}: ')
 result = london_co[dic_key1].get(dic_key2, 'Такого параметра нет')
 print(result)
-
-
-out = london_co.get(input())
-print(out.get(input(f'{out.keys()}'),'Такого параметра нет'))
