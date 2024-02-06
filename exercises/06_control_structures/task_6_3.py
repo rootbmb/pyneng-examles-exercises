@@ -87,11 +87,11 @@ for intf, cmd in trunk.items():
     for command in trunk_template:
         if command.endswith('allowed vlan'):
             if cmd[0] == 'add':
-                print(f' {command} {cmd[0]} {','.join(cmd[1:])}')
+                print(f" {command} {cmd[0]} {','.join(cmd[1:])}")
             elif cmd[0] =='del':
-                print(f' {command} remove {','.join(cmd[1:])}')
+                print(f" {command} remove {','.join(cmd[1:])}")
             elif cmd[0] == 'only':
-                print(f' {command} {','.join(cmd[1:])}')
+                print(f" {command} {','.join(cmd[1:])}")
 
         else:
             print(f' {command}')
